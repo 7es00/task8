@@ -1,0 +1,38 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+table,
+tr,
+th,
+td {
+  padding: 1rem;
+  border: 1px solid #ccc;
+}
+th {
+  text-align: center !important;
+  background-color: #07cd0b !important;
+}
+td {
+  padding: 11px;
+}
+
+ul {
+  padding: 1rem;
+  text-align: center;
+}
+li {
+  display: inline-block;
+  background-color: rgb(171, 171, 171);
+  border-radius: 50%;
+  padding: 0.3rem 0.5rem;
+  list-style: none;
+}
+li:hover {
+  cursor: pointer;
+  background-color: #07cd0b;
+}
